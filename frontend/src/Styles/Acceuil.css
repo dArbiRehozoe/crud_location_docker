@@ -1,0 +1,44 @@
+.flex{
+    /* border: 1px solid rgba(232, 8, 139, 0.292); */
+    border-radius: 20px;
+    display: flex;
+    margin-top: 7%;
+    margin-left: 1%;
+    width: 98%;
+    overflow: hidden;
+
+    /* box-shadow: 1px 1px 1px 1px rgba(93, 116, 243, 0.575); */
+}
+.descri{
+    width: 55%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-right: 1px solid rgba(0, 191, 255, 0.123);
+    padding-left: 40px;
+    padding-top: 150px;
+}
+.descri h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.image{
+    padding-left: 10%;
+}
+@media only screen and (max-width: 1000px) {
+    .flex{
+        overflow: hidden;
+    }
+    .descri{
+        padding-top: 100px;
+    }
+    .image{
+        padding-left: 0%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .descri{
+        width: 100%;
+    }
+    .image{
+        display: none;
+    }
+}
+

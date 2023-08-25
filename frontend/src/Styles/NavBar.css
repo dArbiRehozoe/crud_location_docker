@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: rgba(145, 84, 4, 0.63);
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(172, 172, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    text-decoration : underline;
+    color: rgba(235, 18, 255, 0.443);
+  }
+  
+  .topnav a.active {
+   font-size: 24px;
+font-weight: bold;
+    color: pink;
+  }
+  
+  .topnav-right {
+    float: right;
+    margin-right: 100px;
+  }
+  .topnav-right1 {
+    float: right;
+    margin-right: 100px;
+  }
+  .active{
+    margin-left: 100px;
+    margin-top: -20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .active{
+      margin-left: 150px;
+    }
+    .topnav-right {
+      float: right;
+      margin-right: 24px;
+    }
+    .topnav-right1 {
+      float: right;
+      margin-right: 84px;
+    }
+    .topnav .a {
+      float: left;
+      color: rgb(172, 172, 255);
+      text-align: center;
+      width:40px;
+      margin-left: 30px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  }
