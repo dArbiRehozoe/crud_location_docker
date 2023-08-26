@@ -117,7 +117,7 @@ def update_location(numloc):
 @app.route('/delete_location/<int:numloc>', methods=['DELETE'])
 def delete_location(numloc):
     delete_query = "DELETE FROM location WHERE numloc=%s"
-    cursor.execute(delete_query, numloc)
+    cursor.execute(delete_query, (numloc,))
     db.commit()
     
     return jsonify({'message': 'Book deleted successfully'})
